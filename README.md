@@ -7,6 +7,18 @@
 
 -- python3 gps_tkinter.py
 
+# COMMENTS FROM THE CREATOR
+
+- first execute gps_raw.py to test your setup. It will display in terminal latitude/longitude received live from your GPS module.
+- if gps_raw.py does not display any value after a 'certain amount of time'... check yoursetup
+- execute gps_tkinter.py
+- main window + waypoints-list window will open
+- it will load the file gps_tkinter.json, which contains the last valid GPS position received (if ever)
+- the last valid GPS position is displayed on bottom
+- as soon as the GPS module receives a valid position, it will overwrite the gps_tkinter.json value
+- I made it this way to write down the last valid position, whatever can occurs after it will be saved in a file not in a volatile memory
+- program loop: display last valid position / if new position received, write as the last valid position / display in the program window center the value read - XXX for unreadable and invalid values
+
 # FUNCTIONS
 - DISPLAY LIVE GPS position
 - RECORD history all GPS positions received in a .json file [date,latitude,longitude]
