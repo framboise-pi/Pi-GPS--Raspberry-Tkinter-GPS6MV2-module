@@ -2,6 +2,9 @@
 + Using Tkinter (Python windows system) - GPS6MV2 module
 + 
 
+# SCREENSHOT
+![GPS values have been post-edited. All windows opened, with a waypoint targeted and recording GPS positions is on.](screenshots/GPS-Tkinter-Pi_screenshot_01.jpg)
+
 -- python3 gps_tkinter.py
 
 # FUNCTIONS
