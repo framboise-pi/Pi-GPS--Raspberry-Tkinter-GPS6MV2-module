@@ -4,6 +4,7 @@
 #####################################
 #codelibre.fr
 #https://github.com/framboise-pi
+#LAFONTAINE Cedric Camille
 #####################################
 #Break the rules! Programmons dans notre langue natale
 #GY-GPS6MV2 Sensitivity : -161dBm Baud Rate: 4800-230400
